@@ -6,8 +6,6 @@ Este programa foi feito para uma tarefa da disciplina Organização e Arquitetur
 ## Tarefa 1
 1) Assuma que os números (em hexadecimal) são inteiros positivos (sem sinal).
     * Em decimal, isso quer dizer que os números estão na faixa entre 0 e 255.
-    
-$$(255)_{10}$$
 2) Os números que serão multiplicados encontram-se nas <ins>portas de entrada</ins> 00H e 01H.
 3) Os 8 LSB do resultado devem ser escritos na <ins>porta de saída</ins> 00H, enquanto os 8 MSB na <ins>porta de saída</ins> 01H.
 4) Multiplicação por *zero*. Certifique-se que o programa funcione corretamente quando um dos números for igual a zero.
